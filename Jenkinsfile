@@ -4,7 +4,7 @@ pipeline{
     environment {
         dockerHubRegistry = 'dockerdongju/jenkin'
         dockerHubRegistryCredential = 'docker-hub'
-        githubCredential = 'repo-and-hook-access-token-credentials'
+        githubCredential = 'github'
     }
 
     stages {
